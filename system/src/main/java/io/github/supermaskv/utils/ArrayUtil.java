@@ -14,4 +14,8 @@ public class ArrayUtil {
         }
         return true;
     }
+
+    public static int[] copyArray(int[] arr) {
+        return arr == null ? null : arr.clone();
+    }
 }
